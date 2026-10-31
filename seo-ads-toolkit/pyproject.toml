@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "seo-ads-toolkit"
+version = "1.0.0"
+description = "Open-source, zero-dependency SEO and Ads command-line toolkit (38 tools)"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+dependencies = []
+
+[project.scripts]
+seo-ads = "seo_ads_toolkit.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["seo_ads_toolkit*"]

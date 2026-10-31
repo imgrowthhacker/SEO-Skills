@@ -1,0 +1,7 @@
+66.249.66.1 - - [10/Oct/2026:10:00:01 +0000] "GET / HTTP/1.1" 200 5120 "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+66.249.66.1 - - [10/Oct/2026:10:00:05 +0000] "GET /products?color=red HTTP/1.1" 200 4000 "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+66.249.66.1 - - [10/Oct/2026:10:00:09 +0000] "GET /old-page HTTP/1.1" 404 300 "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+66.249.66.2 - - [11/Oct/2026:11:00:09 +0000] "GET /about HTTP/1.1" 301 200 "-" "Mozilla/5.0 (compatible; Googlebot/2.1)"
+40.77.167.1 - - [11/Oct/2026:12:00:00 +0000] "GET / HTTP/1.1" 200 5120 "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+20.15.1.1 - - [11/Oct/2026:12:30:00 +0000] "GET /blog HTTP/1.1" 200 9000 "-" "Mozilla/5.0; compatible; GPTBot/1.1; +https://openai.com/gptbot"
+1.2.3.4 - - [11/Oct/2026:12:31:00 +0000] "GET / HTTP/1.1" 200 5120 "-" "Mozilla/5.0 (Windows NT 10.0) Chrome/120"
